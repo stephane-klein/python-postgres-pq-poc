@@ -3,6 +3,8 @@
 I created this project to test how the [pq](https://github.com/malthe/pq/) (Simple transactional queue for PostgreSQL
 written in Python) library works and how I can create jobs directly from sql queries and not only via Python.
 
+[![asciicast](https://asciinema.org/a/nFVVI6tpjap2pq8LTNgV9n2hg.svg)](https://asciinema.org/a/nFVVI6tpjap2pq8LTNgV9n2hg)
+
 ## Prerequisites
 
 - Docker
