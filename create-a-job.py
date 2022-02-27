@@ -8,7 +8,6 @@ conn = connect(
 )
 pq = PQ(conn)
 
-# pq.create()
-queue = pq['apples']
+queue = pq['queue1']
 with queue as cursor:
     queue.put({"foo": "bar"})

@@ -45,7 +45,7 @@ You can also create a job via PostreSQL console:
 
 ```
 $ ./scripts/enter-in-pg.sh
-postgres=# INSERT INTO queue (q_name, data) VALUES('apples', '{"foo": "bar2"}');
+postgres=# INSERT INTO queue (q_name, data) VALUES('queue1', '{"foo": "bar2"}');
 INSERT 0 1
 postgres=#
 ```

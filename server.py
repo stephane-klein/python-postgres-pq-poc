@@ -8,14 +8,9 @@ conn = connect(
 )
 pq = PQ(conn)
 
-def eat(foo):
-    print('eat')
-    print(foo)
-
 pq.create()
-queue = pq['apples']
+queue = pq['queue1']
 for job in queue:
     if job is not None:
         print(job)
-        eat(**job.data)
-
+        print(job.data)
